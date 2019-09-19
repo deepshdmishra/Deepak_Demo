@@ -1,0 +1,225 @@
+body{
+	font-family: "Gt Walsheim", "gt_walsheimlight", "helvetica neue", "helvetica", sans-serif;
+}
+.sec_51{
+	width: 1000px;
+    max-width: calc(100% - 2rem);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 160px;
+    text-align: center;
+    min-height: 85%;
+    background: #fff;
+}
+.title_text{
+	padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 160px;
+}
+#color511{
+	color: #6fafd8;
+}
+#color512{
+	color: #efaaae;
+}
+#color513{
+	color: #f7d541;
+}
+.title_subtext{
+	padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
+    padding-bottom: 6rem;
+}
+.faq_category{
+    padding: 1rem 2.5rem 1rem 1rem;
+    border: 2px solid #1d6693;
+    border-radius: 3px;
+    margin-right: 80px;
+    position: relative;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    font-size: 1.25rem;
+    color: #1d6693;
+}
+.faq_category select{
+	display: none;
+}
+.select-selected:after {
+  position: absolute;
+    content: "";
+    top: 24px;
+    right: 1rem;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-color: #1d6693 transparent transparent transparent;
+}
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #1d6693 transparent;
+    top: 16px;
+}
+.select-hide {
+  display: none;
+}
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.select-items div {
+  color: #1d6693;
+    padding: 8px 16px;
+    border-top: 1px solid transparent;
+    border-color: #1d6693;
+    /* border-left: 0; */
+    cursor: pointer;
+    background: transparent;
+}
+/*style items (options):*/
+.select-items {
+  position: absolute;
+    background-color: #fff;
+    top: 100%;
+    left: -2px;
+    right: 0;
+    z-index: 99;
+    border: 2px solid #1d6693;
+    width: 100%;
+    border-top: 0;
+}
+.sec_3{
+	background:#ffffff;
+}
+.section_title{
+	color: #333;
+}
+.qa_con{
+	margin-top: 4rem;
+    text-align: left;
+}
+.qa{
+	padding-top: 2rem;
+}
+.question{
+	color: #333;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.numeral{
+	display: inline-block;
+	width: 1.5rem;
+	vertical-align: top;
+}
+.q_text{
+	display: inline-block;
+	width: calc(100% - 2rem);
+	vertical-align: top;
+}
+.answer{
+	margin-left: 2rem;
+    font-size: 1.4rem;
+    font-weight: 100;
+    color: #333;
+    padding-top: 0.5rem;
+}
+#sec_3.section_description{
+	color: #333;
+}
+#sec_3.section_subtext{
+	color: #575757;
+}
+.section_subtext_des{
+	color: #555;
+}
+.input_name, .input_profession, .input_mobile_email{
+	color: #666;
+	border-bottom: 2px solid #ddd;
+}
+::-webkit-input-placeholder { /* Chrome */
+  color: #666666;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #666666;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #666666;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #666666;
+  opacity: 1;
+}
+::-webkit-textarea-placeholder { /* Chrome */
+  color: #666666;
+} 
+:-ms-textarea-placeholder { /* IE 10+ */
+  color: #666666;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #666666;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #666666;
+  opacity: 1;
+}
+.submit_form{
+	color: #555;
+	border: 2px solid #666;
+}
+.sec_4{
+	background: #1d6693;
+}
+.logo_des, .contact_info, .more_pages{
+	color: #fff;
+}
+@media screen and (max-width: 1000px){
+	.answer{
+		font-size: 1.25rem;
+	}
+	.question{
+		font-size: 1.3rem;
+	}
+}
+@media screen and (max-width: 690px){
+	body{
+		font-family: "Lato", sans-serif;
+	}
+	.question{
+		font-weight: 700;
+	}
+	.title_text, .section_title{
+		font-weight: 900 !important;
+	}
+}
+@media screen and (max-width: 660px){
+	.question{
+		font-size: 1.25rem;
+	}
+	.title_text{
+		padding-top: 30px;
+	}
+	.title_subtext{
+		margin-top: 1rem;
+		padding-bottom: 2rem;
+	}
+	.down_arrow{
+		margin-top: 0;
+	}
+	.down_arrow_svg{
+		height: 22px;
+		widows: 22px;
+	}
+}
+@media screen and (max-width: 600px){
+.sec_4 {
+    padding-bottom: 4rem;
+}
+}

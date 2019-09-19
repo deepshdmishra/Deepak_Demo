@@ -1,0 +1,1265 @@
+body, html {
+    height: 100%;
+    margin:0;
+    padding:0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.menu_option, .cta_booking , .submit_form, .mobile_menu, .right_arrow, .mobile_menu_option, .mobile_cta_contact{
+cursor:pointer;
+}
+#contact{
+    margin:0;
+    padding:0.6rem 2rem;
+    background:#1d6693;
+}
+.mobile_menu_bar{
+position: fixed;
+    height: 100%;
+    z-index: 1000;
+    width: 90%;
+    max-width: 320px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #1d2122;
+	display:none;
+    z-index:10000000;
+}
+.mobile_menu_subcon{
+padding: 48px 60px;
+    font-family: "Gt Walsheim", "gt_walsheim", "helvetica neue", "helvetica", sans-serif;
+    font-size: 1.2rem;
+color:#fff;
+}
+.mobile_menu_option{
+padding: 0 0 30px;
+margin:0;
+}
+.right_arrow{
+height: 22px;
+    width: 22px;
+    position: absolute;
+    right: 1.5rem;
+    top: 48px;
+}
+.mobile_cta_contact{
+color: #fff;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 12px;
+    width: calc(100% - 120px);
+    position: absolute;
+    bottom: 3rem;
+}
+.triple_line{
+height:26px;
+width:26px;
+}
+.mobile_menu{
+display:none;
+    width: 26px;
+    height: 26px;
+    position: fixed;
+    right: 2rem;
+	top:46px;
+}
+.mobile_more_pages{
+display:none;
+}
+#mobile.parallax_title{
+display:none;
+}
+.parallax_con { 
+    /* The image used */
+    background-image: url("https://i.imgur.com/G9KDckt.jpg");
+
+    /* Full height */
+    height: 100%; 
+    widht:100%;background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* Create the parallax scrolling effect */
+/*    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.parallax_cover{
+    background: rgba(50,50,50,0.35);
+    height: 100%;
+    width: 100%;
+}
+.parallax_title{
+    color: #fff;
+    font-weight: 700;
+    font-size: 3.1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 280px;
+    position: fixed;
+    width:100%;
+    font-family: "Gt Walsheim", "gt_walsheimbold", "helvetica neue", "helvetica", sans-serif ;
+}
+.nav_bar{
+    position: fixed;
+    top: 0;
+    height: 80px;
+    display: flex;
+    width: 100%;
+    padding-top: 2.5rem;
+    z-index: 1000000;
+}
+.is-hidden {
+    opacity: 0;
+    -webkit-transform: translate(0,-100px);
+    -webkit-transition: -webkit-transform .3s,background .3s,color .3s, opacity 0.3s;
+  }
+  
+.is-visible {
+    opacity: 1;
+    -webkit-transform: translate(0,0);
+    -webkit-transition: -webkit-transform .3s,background .3s,color .3s;
+  }
+.logo{
+    font-family: "Gt Walsheim", "gt_walsheim", "helvetica neue", "helvetica", sans-serif ;
+    color: #fff;
+    font-size: 2.49rem;
+    margin-left:4.5rem;
+    margin-top: 0;
+    width: 180px;
+}
+.logo_top{
+    width: 100%;
+}
+.menu{
+    position: absolute;
+    right: 3rem;
+    display: flex;
+    font-family: "Gt Walsheim", "gt_walsheim", "helvetica neue", "helvetica", sans-serif ;
+    color: #eee;
+    font-size: 1.18rem;
+}
+.menu_option{
+    padding: 0.6rem 0;
+    margin: 0 2rem;
+}
+.down_arrow{
+    height: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    bottom: 50px;
+    text-align: center;
+}
+.down_arrow_coloured{
+    height: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 50px;
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+}
+.down_arrow_svg{
+    height: 30px;
+    width: 30px;
+}
+.sec_1{
+    width: 100%;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+}
+.sec_2{
+    width: 100%;
+    background: #1d6693;
+    position: relative;
+    z-index: 1; 
+    overflow: hidden;   
+}
+.section_icon{
+    width: 100%;
+    padding-top: 7rem;
+    text-align: center;
+}
+.section_icon_img{
+    width: 120px;
+}
+.section_title{
+    text-align: center;
+    font-family: "Gt Walsheim", "gt_walsheimbold", "helvetica neue", "helvetica", sans-serif ;
+    color: #575757;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-top: 2rem;
+    line-height: 1.1;
+    max-width: calc(100% - 1.2rem);
+    margin-left: auto;
+    margin-right: auto;
+}
+.trade_symbol{
+    font-family: "Gt Walsheim", "gt_walsheim", "helvetica neue", "helvetica", sans-serif ;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #919191;
+    padding-left: 0.2rem;
+    vertical-align: super;
+}
+.section_description{
+    text-align: center;
+    font-family: "Gt Walsheim", "gt_walsheimlight", "helvetica neue", "helvetica", sans-serif ;
+    font-weight: 100;
+    width: 760px;
+    font-size: 1.4rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5rem;
+    color: #555;
+    margin-bottom: 6rem;
+    line-height: 1.2;
+    max-width: calc(100% - 3rem);
+}
+.section_graphic{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    overflow: hidden;
+}
+.section_graphic_img{
+    width: 100%;
+}
+#ss2_mobile{
+    display: none;
+}
+.section_subtext{
+    text-align: center;
+    font-family: "Gt Walsheim", "gt_walsheimbold", "helvetica neue", "helvetica", sans-serif ;
+    color: #454545;
+    font-weight: 700;
+    font-size: 1.399rem;
+    max-width: calc(100% - 3rem);
+    margin-left: auto;
+    margin-right: auto;
+}
+#sec_2.section_title{
+    color: #fff;
+    width: 1200px;
+    max-width: calc(100% - 1.2rem);
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.1;
+    margin-top: 4rem;
+}
+#sec_2.section_description{
+    color:#ffffff;
+    margin-bottom: 10rem;
+    margin-top: 3rem;
+}
+#sec_2.section_icon{
+    font-family: "Gt Walsheim", "gt_walsheim", "helvetica neue", "helvetica", sans-serif ;
+    color: #fff;
+    font-size: 2.49rem;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sec_2.trade_symbol{
+    color: #eee;
+    font-size: 1.5rem;
+}
+.subsection_img_con{
+    display: inline-block;
+    width: 55%;
+    vertical-align: middle;
+}
+.subsection_img{
+    width: 100%;
+}
+.subsection_data{
+    display: inline-block;
+    width: 35%;
+    vertical-align: middle;
+    padding: 0 1rem;
+}
+.subsection_title{
+    font-family: "Gt Walsheim", "gt_walsheimbold", "helvetica neue", "helvetica", sans-serif ;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 1.1;
+}
+.subsection_description{
+    font-family: "Gt Walsheim", "gt_walsheimlight", "helvetica neue", "helvetica", sans-serif ;
+    color: #fff;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin-top: 1.5rem;
+    font-weight: 100;
+    margin-bottom: 3rem;
+}
+.pointer_con{
+    font-family: "Gt Walsheim", "gt_walsheim", "helvetica neue", "helvetica", sans-serif ;
+    color: #fff;
+    font-size: 1.25rem;
+    margin-bottom: 0.8rem;
+}
+.pointer_icon{
+    display: inline-block;
+    height: 4px;
+    width: 18px;
+    background: #fff;
+    vertical-align: middle;
+}
+.pointer_text{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1rem;
+    width: calc(100% - 18px - 1rem - 8px);
+    line-height: 1.1;
+}
+#ss2.subsection{
+    display: flex;
+    margin-top: 9rem;
+}
+#ss2.subsection_data{
+    margin-left: 10%;
+    padding-left: 0;
+    margin-top: 6rem;
+    padding-right: 0;
+    width: 35%;
+}
+#sc2{
+    position: relative;
+    width: auto;
+    max-width: 55%;
+}
+#ss3{
+    margin-top: 9rem;
+    padding-bottom: 7rem;
+}
+.cta_booking{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    padding: 1.3rem 4.5rem;
+    font-family: "Gt Walsheim", "gt_walsheimbold", "helvetica neue", "helvetica", sans-serif ;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border: 2px solid #fff;
+    border-radius: 4px;
+}
+.cta_booking_con{
+    padding-bottom: 8rem;
+}
+.sec_3{
+    position: relative;
+    z-index: 1;
+    background: #fff;
+}
+#sec_3.section_subtext{
+    font-size: 1.65rem;
+    color: #575757;
+}
+#sec_3.section_description{
+    margin-bottom: 5rem;
+}
+.section_subtext_des{
+    text-align: center;
+    font-family: "Gt Walsheim", "gt_walsheimlight", "helvetica neue", "helvetica", sans-serif ;
+    font-weight: 100;
+    color: #777;
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    max-width: calc(100% - 3rem);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:1rem;
+}
+.contact_form{
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    padding-bottom: 9rem;
+    max-width: calc(100% - 3rem);
+    margin-bottom: 0;
+}
+.input_name, .input_profession, .input_mobile_email{
+    width: 100%;
+    padding-bottom: 0.5rem;
+    font-family: "Gt Walsheim", "gt_walsheim", "helvetica neue", "helvetica", sans-serif ;;
+    font-weight: 400;
+    color: #666;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 1.35rem;
+    font-style: italic;
+    padding-left: 1.3rem;
+    border-bottom: 2px solid #ddd;
+    outline: none;
+    height: 40px;
+}
+.input_profession, .input_mobile_email{
+    margin-top: 3rem;
+}
+.submit_form{
+    margin-top: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    padding: 1.3rem 4.5rem;
+    font-family: "Gt Walsheim", "gt_walsheimbold", "helvetica neue", "helvetica", sans-serif ;;
+    color: #555;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border: 2px solid #666;
+    border-radius: 4px;
+}
+.sec_4{
+    background: #1d6693;
+    position: relative;
+    z-index: 1;    
+    padding-top:8rem;
+    padding-bottom: 6rem;
+    display: flex;
+}
+.left_subsection{
+    margin-left: 5rem;
+    width: calc(100% - 10rem);
+}
+#logo_bottom{
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    margin-top: 0;
+}
+.logo_img{
+    width: 180px;
+}
+.logo_des{
+    font-family: "Gt Walsheim", "gt_walsheimlight", "helvetica neue", "helvetica", sans-serif ;;
+    font-weight: 100;
+    color: #fff;
+    width: 400px;
+    font-size: 1.15rem;
+    margin-left: 2.3rem;
+    margin-top: 1.8rem;
+}
+.contact_info{
+    font-family: "Gt Walsheim", "gt_walsheimbold", "helvetica neue", "helvetica", sans-serif ;;
+    font-weight: 700;
+    color: #fff;
+    width: 400px;
+    font-size: 1.15rem;
+    margin-left: 2.3rem;
+    margin-top: 1.8rem;
+}
+.right_subsection{
+    width: 145px;
+    margin-right: 8rem;
+}
+.more_pages{
+    font-family: "Gt Walsheim", "gt_walsheimlight", "helvetica neue", "helvetica", sans-serif ;;
+    font-weight: 100;
+    color: #fff;
+    font-size: 1.34rem;
+    padding-bottom: 0.3rem;
+    text-align: right;
+}
+#faq{
+    margin-top:2.5rem;
+}
+.sec_5{
+    background: #fff;
+    padding: 1.5rem 0;
+    position: relative;
+    z-index: 1;
+}
+.social_icon_bar{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;    
+}
+.social_icon{
+    width:42px;
+    margin-right: 0.3rem;
+}
+.social_icon_img{
+    width:100%;
+}
+#twitter{
+    margin-right: 0;
+}
+@media screen and (max-width: 1100px){
+.section_graphic_img{
+    width: 110%;
+    margin-left: -5%;
+}
+}
+@media screen and (max-width: 930px){
+.section_graphic_img{
+    width: 120%;
+    margin-left: -10%;
+}
+}
+@media screen and (max-width: 800px){
+.section_graphic_img{
+    width: 130%;
+    margin-left: -15%;
+}
+}
+@media screen and (max-width: 650px){
+.section_graphic_img{
+    width: 154%;
+    margin-left: -27%;
+}
+}
+@media screen and (max-width: 600px){
+    .section_graphic{
+        overflow: scroll;
+    }
+.section_graphic_img{
+    width: 160%;
+    margin-left: -30%;
+margin-left:0%;
+}
+}
+@media screen and (max-width: 550px){
+    .section_graphic{
+        overflow: scroll;
+    }
+.section_graphic_img{
+    width: 170%;
+/*    margin-left: -35%;
+*/
+}
+}
+@media screen and (max-width: 500px){
+    .section_graphic{
+        overflow: scroll;
+    }
+.section_graphic_img{
+    width: 180%;
+  /*  margin-left: -40%;
+*/
+}
+}
+@media screen and (max-width: 1200px){
+    .subsection_title{
+        font-size: 2rem;
+    }
+    .subsection_data{
+        padding: 0 1rem 0 1.5rem;
+    }
+    #ss2.subsection_data{
+        margin-top: 3rem;
+        margin-right: 2%;
+    margin-left: 8%;
+    }
+    .parallax_title{
+        font-size: 2.9rem;
+    }
+    .section_title{
+        font-size: 2.8rem;
+    }
+    .section_icon_img{
+        width: 100px;
+    }
+    .section_icon{
+        padding-top: 6rem;
+    }
+    .section_description{
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+    #sec_2.section_icon{
+        width: 180px;
+    }
+    #sec_2.section_description{
+        margin-bottom: 8rem;
+    }
+    #ss3, #ss2.subsection{
+        margin-top:8rem;
+    }
+    .cta_booking{
+        padding: 1.2rem 4rem;
+    }
+    .cta_booking_con{
+        padding-bottom: 7rem;
+    }
+    .submit_form{
+        padding: 1.2rem 4rem;
+    }
+    .contact_form{
+        padding-bottom: 7rem;
+    }
+}
+@media screen and (max-width: 1140px){
+    #ss2.subsection_data{
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 1100px){
+    #ss2.subsection_data{
+        margin-top: 1rem;
+    }
+    .subsection_img_con{
+        width: 58%;
+    }
+    #sc2{
+        max-width: 58%;
+    }
+}
+@media screen and (max-width: 1060px){
+    #sc1.subsection_img_con{
+        width: 75%;
+        display: block;
+    }
+    #sd1.subsection_data{
+        display: block;
+        width: 60%;
+        margin-top: 3rem;
+        padding-left: 5rem;
+    }
+    #ss2.subsection{
+        display: none;
+    }
+    #ss2_mobile.subsection{
+        display: block;
+        margin-top: 8rem;
+    }
+    #sc2{
+        width: 75%;
+        margin-left: 25%;
+        max-width: 75%;
+    }
+    #ss2.subsection_data{
+        width: 60%;
+        margin-top: 3rem;
+        margin-left: 32%;
+        text-align: right;
+    }
+    #pt1, #pt2, #pt3{
+        width: auto;
+        max-width: calc(100% - 8px - 1rem - 18px);
+    }
+    #sd3{
+        width: 60%;
+    margin-top: 3rem;
+    padding-left: 5rem;
+    }
+    .subsection_description{
+        margin-bottom: 2rem;
+    }
+    #ss3{
+        padding-bottom: 5.5rem; 
+    }
+    .section_title{
+        font-size: 2.6rem;
+    }
+    .parallax_title{
+        font-size: 2.7rem;
+    }
+    .section_icon_img{
+        width: 90px;
+    }
+    .section_icon {
+    padding-top: 5.5rem;
+    }
+    #sec_3.section_description {
+    margin-bottom: 3.5rem;
+    }
+    .sec_4{
+        padding-top: 6rem;
+    }
+    .section_description, #sec_2.section_description{
+        margin-top: 2.5rem;
+    }
+}
+@media screen and (max-width: 990px){
+    .menu{
+        font-size: 1.23rem;
+    }
+    .menu_option {
+        padding: 0.6rem 1.9rem;
+    }
+    #sec_2.section_description{
+        margin-bottom: 7rem;
+    }
+    .section_title {
+        font-size: 2.5rem;
+    }
+    .parallax_title {
+        font-size: 2.6rem;
+    }
+    .section_description {
+        margin-top: 2rem;
+        font-size: 1.35rem;
+    }
+    #sc1.subsection_img_con{
+        width: 80%
+    }
+    #sc2{
+        width: 80%;
+        margin-left: 20%;
+        max-width: 80%;
+    }
+    .section_description{
+        line-height: 1.25;
+    }
+    .subsection_description{
+        line-height: 1.25;
+    }
+ }   
+@media screen and (max-width: 990px){
+    #sc1.subsection_img_con{
+        width: 83%
+    }
+    #sc2{
+        width: 83%;
+        margin-left: 17%;
+        max-width: 83%;
+    }
+    #ss2_mobile.subsection{
+        margin-top: 7rem;
+    }
+    #ss3{
+        margin-top: 7rem;
+        padding-bottom: 5rem;
+    }
+    .logo{
+        margin-left: auto;
+    margin-right: auto;
+    }
+    .menu{
+        display: none;
+    }
+    .mobile_menu{
+	display:block;
+	}
+    .parallax_title {
+    font-size: 2.5rem;
+    }
+    #sec_2.section_icon {
+    width: 170px;
+    }
+    .section_title {
+    font-size: 2.4rem;
+    }
+    .section_subtext{
+        font-size: 1.3rem;
+    }
+    .left_subsection{
+        margin-left: 4rem;
+    }
+    .right_subsection{
+        margin-right: 6.5rem;
+    }
+}
+@media screen and (max-width: 990px){
+    .section_title {
+        font-size: 2.3rem;
+    }
+
+}
+@media screen and (max-width: 940px){
+    .subsection_title{
+        font-size: 1.85rem;
+    }
+    .logo_img{
+        width: 165px;
+    }
+    #sec_3.section_subtext{
+        font-size: 1.5rem;
+    }
+    .trade_symbol{
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width: 860px){
+    .parallax_title {
+    font-size: 2.4rem;
+    }
+    .cta_booking, .submit_form{
+        font-size: 1.1rem;
+        padding: 1rem 4rem;
+    }
+    .section_title {
+    font-size: 2.2rem;
+    }
+    .trade_symbol{
+        font-size: 1.6rem;
+    }
+    #sec_2.section_icon{
+        width: 160px;
+    }
+}
+@media screen and (max-width: 800px){
+    #sc1.subsection_img_con{
+        width: 87%;
+    }
+    #sc2 {
+    width: 87%;
+    margin-left: 13%;
+    max-width: 87%;
+    }
+    #ss2.subsection_data{
+        width: 65%;
+    margin-top: 3rem;
+    margin-left: 27%;
+    text-align: right;
+    }
+    #sd1.subsection_data{
+        width: 65%;
+    }
+    #sd3{
+        width: 65%;
+    }
+    .logo_img{
+        width: 155px;
+    }
+    .section_title {
+    font-size: 2.1rem;
+    }
+    #sec_2.section_description{
+        margin-bottom: 6rem;
+    }
+    .section_description{
+        font-size: 1.3rem;
+    }
+    #ss2_mobile.subsection{
+        margin-top: 6rem;
+    }
+    #ss3{
+        margin-top: 6rem;
+    }
+    .left_subsection{
+        margin-left: 3rem;
+    }
+    .right_subsection{
+        margin-right: 5rem;
+    }
+    .more_pages{
+        font-size: 1.23rem;
+    }
+    .input_name, .input_profession, .input_mobile_email{
+        font-size: 1.3rem;
+    }
+    .logo{
+        width: 165px;
+    }
+    .mobile_menu{
+	margin-top:0.2rem;
+    }
+	.triple_line{
+		height:24px;
+		width: 24px;
+	}
+}
+@media screen and (max-width: 730px){
+    .parallax_title {
+        font-size: 2.2rem;
+    }
+    .section_icon_img {
+    width: 80px;
+    }
+    .section_description {
+    font-size: 1.27rem;
+    }
+    .section_title {
+    font-size: 2.05rem;
+    }
+    .section_icon {
+    padding-top: 5rem;
+    }
+    #sec_2.section_title{
+        margin-top: 3.5rem;
+    }
+    .section_description, #sec_2.section_description{
+        margin-top: 2rem;
+    }
+    #sd1.subsection_data, #sd3{
+        padding-left: 2rem; 
+    }
+    #ss2.subsection_data{
+        margin-left: calc(100% - 65% - 2rem);
+    }
+}
+@media screen and (max-width: 700px){
+    .subsection_title{
+        line-height: 1.25;
+    }
+    .subsection_title{
+        font-size: 1.7rem;
+    }
+    .pointer_text{
+        line-height: 1.25;
+    }
+    #sc1.subsection_img_con{
+        width: 90%;
+    }
+    #sc2 {
+    width: 90%;
+    margin-left: 10%;
+    max-width: 90%;
+    }
+    .logo_img{
+        width: 140px;
+    }
+    .left_subsection{
+        margin-left: 1.5rem;
+    }
+    .logo_des, .contact_info{
+        margin-left: 2rem;
+    }
+    .contact_info{
+        font-size:1.1rem;
+    }
+    .sec_4{
+        padding-bottom: 5rem;
+    }
+    .logo, #sec_2.section_icon {
+    width: 150px;
+    }
+    .right_subsection{
+        margin-right: 3rem;
+    }
+    .contact_form {
+    padding-bottom: 6rem;
+    }
+    .cta_booking_con {
+    padding-bottom: 6rem;
+}
+}
+
+@media screen and (max-width: 650px){
+    .social_icon{
+        width: 40px;
+    }
+    .social_icon_bar{
+	width: 162px;
+}
+    #sc1.subsection_img_con{
+        width: 93%;
+    }
+    #sc2 {
+    width: 93%;
+    margin-left: 7%;
+    max-width: 93%;
+    }
+    .parallax_title {
+    font-size: 2.1rem;
+}
+.logo, #sec_2.section_icon{
+    width: 140px;
+}
+.section_title {
+    font-size: 1.95rem;
+}
+.section_icon_img {
+    width: 70px;
+}
+.section_icon {
+    padding-top: 4rem;
+}
+.cta_booking, .submit_form {
+    font-size: 1rem;
+}
+#sd1.subsection_data{
+    width: 70%;
+}
+#ss2.subsection_data{
+    width: 70%;
+    margin-left: calc(100% - 70% - 2rem);
+}
+#sd3{
+    width: 70%;
+}
+}
+@media screen and (max-width: 600px){
+    .parallax_title {
+        font-size: 1.95rem;
+    }
+    .logo, #sec_2.section_icon{
+        width: 130px;
+    }
+    .section_icon_img {
+    width: 60px;
+}
+.section_title {
+    font-size: 1.8rem;
+}
+.subsection_title {
+    font-size: 1.6rem;
+}
+.section_description {
+    font-size: 1.25rem;
+}
+.social_icon {
+    width: 37px;
+}
+.social_icon_bar{
+        width: 150px;
+}
+.logo_des, .contact_info{
+    width: 300px;
+}
+.logo_img {
+    width: 130px;
+}
+.more_pages {
+    font-size: 1.2rem;
+}
+#sec_3.section_subtext {
+    font-size: 1.4rem;
+}
+}
+@media screen and (max-width: 570px){
+    .parallax_title {
+    font-size: 1.9rem;
+    width: calc(100% - 3rem);
+    margin-left: 1.5rem;
+}
+.mobile_menu{
+        margin-top:0.2rem;
+	right:1.5rem;
+    }
+        .triple_line{
+                height:24px;
+                width: 24px;
+        }
+#sc1.subsection_img_con {
+    width: 95%;
+}
+#sc2 {
+    width: 95%;
+    margin-left: 5%;
+    max-width: 95%;
+}
+#ss2.subsection_data,#sd3, #sd1.subsection_data {
+    margin-top: 2rem;
+    width: 75%;
+}
+#ss2.subsection_data{
+    margin-left: calc(100% - 75% - 2rem);
+}
+
+}
+
+@media screen and (max-width: 540px){
+#ss3{
+    padding-bottom: 4rem;
+}
+.mobile_menu{
+        right:1rem;
+        margin-top:0.1rem;
+    }
+        .triple_line{
+                height:21px;
+                width: 21px;
+        }
+#laptop.parallax_title{
+display:none;
+}
+#mobile.parallax_title{
+display:block;
+}
+.parallax_title {
+    font-size: 1.85rem;
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+}
+.section_description {
+    font-size: 1.25rem;
+}
+.section_title {
+    font-size: 1.7rem;
+}
+#sec_2.section_description{
+    margin-bottom: 5rem;
+}
+#ss2_mobile.subsection, #ss3{
+    margin-top: 5rem;
+}
+.subsection_title{
+    font-size: 1.5rem;
+}
+.input_name, .input_profession, .input_mobile_email{
+font-size:1.25rem;
+color:#ccc;
+}
+textarea{
+color:#ccc;
+}
+}
+@media screen and (max-width: 540px){
+    .sec_4{
+        display: block;
+        padding: 5rem 0;
+    }
+    .left_subsection {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    width: calc(100% - 3rem);
+}
+.logo_des, .contact_info {
+    width: calc(100% - 2rem);
+}
+.right_subsection{
+    display: none;
+}
+.mobile_more_pages{
+display:block;
+}
+#logo_bottom, .logo_des, .contact_info{
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+}
+.more_pages{
+text-align:center;
+}
+.contact_form {
+    padding-bottom: 5rem;
+}
+.cta_booking, .submit_form {
+    padding: 0.9rem 3.5rem;
+}
+.section_description{
+    line-height: 1.3;
+}
+.logo, #sec_2.section_icon{
+    width: 120px;
+}
+#sc1.subsection_img_con {
+    width: 97%;
+}
+#sc2 {
+    width: 97%;
+    margin-left: 3%;
+    max-width: 97%;
+}
+#ss2.subsection_data,#sd3, #sd1.subsection_data {
+    width: 78%;
+}
+#ss2.subsection_data{
+    margin-left: calc(100% - 78% - 2rem);
+}
+.parallax_title{
+    font-size: 1.65rem;
+    padding-top: 54%;
+}
+.section_title{
+font-size:1.6rem;
+}
+.trade_symbol{
+font-size:1.45rem;
+}
+.section_subtext {
+    font-size: 1.2rem;
+}
+.subsection_title {
+    font-size: 1.45rem;
+}
+.subsection_description{
+font-size:1.18rem;
+}
+.pointer_con{
+font-size:1.18rem;
+}
+.down_arrow_coloured{
+height:20px;
+}
+.down_arrow{
+height:20px;
+}
+#sd1.subsection_data, #sd3{
+padding-left:1rem;
+}
+#ss2.subsection_data{
+margin-left: calc(100% - 78% - 1rem);
+}
+.pointer_icon{
+width:14px;
+height:3px;
+}
+.pointer_text{
+margin-left:0.8rem;
+}
+#pt1, #pt2, #pt3{
+max-width: calc(100% - 8px - 0.8rem - 18px);
+}
+.input_name, .input_profession, .input_mobile_email{
+font-size:1.1rem;
+padding-left: 0.8rem;
+    height: 38px;
+}
+#sec_3.section_description{
+margin-bottom:4.5rem;
+}
+::-webkit-input-placeholder { /* Chrome */
+  color: #cccccc;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #cccccc;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #cccccc;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #cccccc;
+  opacity: 1;
+}
+::-webkit-textarea-placeholder { /* Chrome */
+  color: #cccccc;
+} 
+:-ms-textarea-placeholder { /* IE 10+ */
+  color: #cccccc;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #cccccc;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #cccccc;
+  opacity: 1;
+}
+.contact_form{
+margin-top:3.5rem;
+}
+#sec_3.section_description {
+    margin-bottom: 3rem;
+    }
+.submit_form{
+margin-top:4rem;
+}
+.mobile_menu{
+margin-top:-0.1rem;
+}
+}
+@media screen and (max-width: 690px){
+    .mobile_menu_subcon, .parallax_title, .logo, .menu, .section_title, .trade_symbol, .section_description, .section_subtext, #sec_2.section_icon, .subsection_title, .subsection_description, .pointer_con, .cta_booking, .section_subtext_des, .input_name, .input_profession, .input_mobile_email, .submit_form, .logo_des, .contact_info, .more_pages{
+        font-family: "Lato";
+    } 
+    .parallax_title, .section_title, .subsection_title{
+        font-weight: 900 !important;
+    } 
+}
